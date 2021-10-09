@@ -63,4 +63,12 @@ public class Person {
     public String getAddress() {
         return address;
     }
+
+    public void setDayOfBirth(String newDayOfBirth) {
+        dayOfBirth = newDayOfBirth;
+    }
+
+    public String getDayOfBirth() {
+        return dayOfBirth;
+    }
 }
