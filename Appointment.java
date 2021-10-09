@@ -30,6 +30,10 @@ public class Appointment {
         reason = newReason;
     }
 
+    public String getReason() {
+        return reason;
+    }
+
     public int getAvailability() {
         return availability_ID;
     }
